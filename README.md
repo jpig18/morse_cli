@@ -33,11 +33,11 @@ morse
 Help functions are available to walk you through process
 
 ## Full Process
-1.) Open the ardunio app
-2.) export the StandardFirmata/StandardFirmata.ino to the board
+1. Open the ardunio app
+2. export the StandardFirmata/StandardFirmata.ino to the board
      - If you are having serial port issues try using port: /dev/cu.usbserial-DN01ADTL
-3.) make sure morse CLI is installed
-4.) type morse at the terminal
+3. make sure morse CLI is installed
+4. type morse at the terminal
 
 ## Author
 
