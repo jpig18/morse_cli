@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "morse"
+version = "0.1.2"
+description = "Reads in button presses from an ardunio board using the firmata protocol. Used to show morse code on the screen."
+authors = ["jpig18 <jpignato309@anselm.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyFirmata = "^1.1.0"
+click = "^8.0.4"
+gTTS = "^2.2.4"
+
+[tool.poetry.dev-dependencies]
+python-dotenv = "^0.19.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+morse = "morse.reader:morse"
